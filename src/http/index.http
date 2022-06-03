@@ -19,6 +19,30 @@
 #   --data-raw 'jazoest=2977&lsd=AVquKqj3HjI&email=service%40adorebeauty.com.au&did_submit=1&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=c&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=UNKNOWN&__rev=1005626680&__s=bvcwwo%3Aiidmvf%3A1eswrk&__hsi=7104937690027916183-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654247215' \
 #   --compressed
 
+
+fetch("https://www.facebook.com/ajax/recover/initiate/", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-GB,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"102\", \"Google Chrome\";v=\"102\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-fb-lsd": "AVquKqj3jaE"
+  },
+  "referrer": "https://www.facebook.com/recover/initiate/?ldata=AWc1nnNvb9HnlnVoluq9d1MjlKS_EA36-Ljpy-JJZ8_rvaN0w24LwAz57anwBdqEEKbCMJSUPc66_c0xC08Kvh91YlCAm-sbzUAos8yDJuSH4lRP-Bn4MWxAyQ8kyympeF888ufJtiTJf7-2nhF1NQwDQM9A8iwaydlMEgZbnSdoSMEXsdTBJCe9fuIXtzLdPU0N2r_kKVoHxmn9mtYWDLleCBug9Rd1u6BsQkUMM-QtNJ0H7aJjRJyMwhDo5Ts0WDv3gzOTld8SR51J_auQHHArXK-eUFl01fjWfY2b351UWg",
+  "referrerPolicy": "origin-when-cross-origin",
+  "body": "jazoest=2998&lsd=AVquKqj3jaE&openid_provider_id=&openid_provider_name=&recover_method=send_email&reset_action=1&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=19&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=GOOD&__rev=1005626680&__s=sn05xw%3Aiidmvf%3A4jyxfc&__hsi=7104939342243291112-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654247600",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
 curl 'https://www.facebook.com/ajax/login/help/identify.php?ctx=recover' \
   -H 'authority: www.facebook.com' \
   -H 'accept: */*' \
