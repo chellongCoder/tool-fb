@@ -1,0 +1,103 @@
+# curl 'https://www.facebook.com/ajax/login/help/identify.php?ctx=recover' \
+#   -H 'authority: www.facebook.com' \
+#   -H 'accept: */*' \
+#   -H 'accept-language: en-GB,en;q=0.9' \
+#   -H 'cache-control: no-cache' \
+#   -H 'content-type: application/x-www-form-urlencoded' \
+#   -H 'cookie: fr=0qakZVo816TYN64W4..BimcXa.NI.AAA.0.0.BimcXa.AWVOSIzSc7w; sb=2sWZYlnfqJadqu-ZoEwQc6Np; dpr=2; datr=2sWZYq0LSg9E6UIkiAFOnOLO; wd=807x908; sfiu=AYh5R5hxPkVidmBpclKHL2LcI_hyaZK4mBOXUQBusutPwhpQMLno6qaN1VveDDO9qLTesh6hnMsqNY3oNClWq1IVAVJ0-7tpJ9KH-4ZLnN48nfCv15QLtobCfSYEDLw7seiKUnm7BldVK8kyTbcAJ1td1RGDTuXW6NWZ7N-cS8DZQLaGwGuRBNCw2wXgbpav1bO2Jb_C-FD5rW_V9Gmhe3QR' \
+#   -H 'origin: https://www.facebook.com' \
+#   -H 'pragma: no-cache' \
+#   -H 'referer: https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0' \
+#   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"' \
+#   -H 'sec-ch-ua-mobile: ?0' \
+#   -H 'sec-ch-ua-platform: "macOS"' \
+#   -H 'sec-fetch-dest: empty' \
+#   -H 'sec-fetch-mode: cors' \
+#   -H 'sec-fetch-site: same-origin' \
+#   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36' \
+#   -H 'x-fb-lsd: AVquKqj3HjI' \
+#   --data-raw 'jazoest=2977&lsd=AVquKqj3HjI&email=service%40adorebeauty.com.au&did_submit=1&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=c&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=UNKNOWN&__rev=1005626680&__s=bvcwwo%3Aiidmvf%3A1eswrk&__hsi=7104937690027916183-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654247215' \
+#   --compressed
+
+curl 'https://www.facebook.com/ajax/login/help/identify.php?ctx=recover' \
+  -H 'authority: www.facebook.com' \
+  -H 'accept: */*' \
+  -H 'accept-language: en-GB,en;q=0.9' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/x-www-form-urlencoded' \
+  -H 'cookie: fr=0qakZVo816TYN64W4..BimcXa.NI.AAA.0.0.BimcXa.AWVOSIzSc7w; sb=2sWZYlnfqJadqu-ZoEwQc6Np; dpr=2; datr=2sWZYq0LSg9E6UIkiAFOnOLO; wd=807x908; sfiu=AYh5R5hxPkVidmBpclKHL2LcI_hyaZK4mBOXUQBusutPwhpQMLno6qaN1VveDDO9qLTesh6hnMsqNY3oNClWq1IVAVJ0-7tpJ9KH-4ZLnN48nfCv15QLtobCfSYEDLw7seiKUnm7BldVK8kyTbcAJ1td1RGDTuXW6NWZ7N-cS8DZQLaGwGuRBNCw2wXgbpav1bO2Jb_C-FD5rW_V9Gmhe3QR' \
+  -H 'origin: https://www.facebook.com' \
+  -H 'pragma: no-cache' \
+  -H 'referer: https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0' \
+  -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36' \
+  -H 'x-fb-lsd: AVquKqj3HjI' \
+  --data-raw 'jazoest=2977&lsd=AVquKqj3HjI&email=service%40adorebeauty.com.a&did_submit=1&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=5&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=UNKNOWN&__rev=1005626680&__s=xgec92%3Aiidmvf%3A1eswrk&__hsi=7104937690027916183-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654247215' \
+  --compressed
+
+  fetch("https://www.facebook.com/ajax/login/help/identify.php?ctx=recover", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-GB,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"102\", \"Google Chrome\";v=\"102\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-fb-lsd": "AVquKqj3HjI",
+    "cookie": "fr=0qakZVo816TYN64W4..BimcXa.NI.AAA.0.0.BimcXa.AWVOSIzSc7w; sb=2sWZYlnfqJadqu-ZoEwQc6Np; dpr=2; datr=2sWZYq0LSg9E6UIkiAFOnOLO; wd=807x908; sfiu=AYh5R5hxPkVidmBpclKHL2LcI_hyaZK4mBOXUQBusutPwhpQMLno6qaN1VveDDO9qLTesh6hnMsqNY3oNClWq1IVAVJ0-7tpJ9KH-4ZLnN48nfCv15QLtobCfSYEDLw7seiKUnm7BldVK8kyTbcAJ1td1RGDTuXW6NWZ7N-cS8DZQLaGwGuRBNCw2wXgbpav1bO2Jb_C-FD5rW_V9Gmhe3QR",
+    "Referer": "https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0",
+    "Referrer-Policy": "origin-when-cross-origin"
+  },
+  "body": "jazoest=2977&lsd=AVquKqj3HjI&email=service%40adorebeauty.com.au&did_submit=1&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=c&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=UNKNOWN&__rev=1005626680&__s=bvcwwo%3Aiidmvf%3A1eswrk&__hsi=7104937690027916183-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654247215",
+  "method": "POST"
+});
+
+fetch("https://www.facebook.com/ajax/login/help/identify.php?ctx=recover", {
+  "headers": {
+    "accept": "*/*",
+    "accept-language": "en-GB,en;q=0.9",
+    "cache-control": "no-cache",
+    "content-type": "application/x-www-form-urlencoded",
+    "pragma": "no-cache",
+    "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"102\", \"Google Chrome\";v=\"102\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"macOS\"",
+    "sec-fetch-dest": "empty",
+    "sec-fetch-mode": "cors",
+    "sec-fetch-site": "same-origin",
+    "x-fb-lsd": "AVquKqj3HjI"
+  },
+  "referrer": "https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0",
+  "referrerPolicy": "origin-when-cross-origin",
+  "body": "jazoest=2977&lsd=AVquKqj3HjI&email=service%40adorebeauty.com.a&did_submit=1&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=5&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=UNKNOWN&__rev=1005626680&__s=xgec92%3Aiidmvf%3A1eswrk&__hsi=7104937690027916183-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654247215",
+  "method": "POST",
+  "mode": "cors",
+  "credentials": "include"
+});
+
+
+
+# curl 'https://www.facebook.com/ajax/bootloader-endpoint/?modules=FormSubmit&__user=0&__a=1&__dyn=7xeUmBwjbg7ebwKBWo5O12wAxu13wqovzEdEc8uxa0z8S2S4o1j8hwem0nCq1ewcG0KEswaq0yE7i0n2US1vw9W1PwBgao884y0Mo5W3S1lwlEjxG0y8jwVw9O1iwKwHw8W1uwa-7U1bobodEGdw46wbS1bwzw&__csr=&__req=3&__hs=19146.BP%3ADEFAULT.2.0.0.0.&dpr=2&__ccg=GOOD&__rev=1005626680&__s=3j36s7%3Aiidmvf%3Ahd94dw&__hsi=7104930803869180353-0&__comet_req=0&__spin_r=1005626680&__spin_b=trunk&__spin_t=1654245612' \
+#   -H 'authority: www.facebook.com' \
+#   -H 'accept: */*' \
+#   -H 'accept-language: en-GB,en;q=0.9' \
+#   -H 'cookie: fr=0qakZVo816TYN64W4..BimcXa.NI.AAA.0.0.BimcXa.AWVOSIzSc7w; sb=2sWZYlnfqJadqu-ZoEwQc6Np; dpr=2; datr=2sWZYq0LSg9E6UIkiAFOnOLO; wd=807x908; sfiu=AYjpkOcw7NatQW7MYhhiPgfkt13lGtAqgux-3tPqgTQi6bdjelOqj5NxpraQR_G2rfA3mbYZ04-PyTOSBzcne6gb4U283HfNCDMJjHIA7bPlhXp2XbnZhsniWphMd5fqN-Q-3HnXhCmyTW5jk79nl9cEq957kkBPQF9fwbxqovvufsB_-GATOoAFPLSgVodBxbDAI7rnkHxtv6LGSBDrQfqC' \
+#   -H 'referer: https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0' \
+#   -H 'sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="102", "Google Chrome";v="102"' \
+#   -H 'sec-ch-ua-mobile: ?0' \
+#   -H 'sec-ch-ua-platform: "macOS"' \
+#   -H 'sec-fetch-dest: empty' \
+#   -H 'sec-fetch-mode: cors' \
+#   -H 'sec-fetch-site: same-origin' \
+#   -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Safari/537.36' \
+#   --compressed
